@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.js-clock {
+	  font-style: "Open Sans", sans-serif;
+	  font-size: 60px;
+	  color: #e74c3c;
+      }
+
+h1 {
+	font-size: 80px;
+	color: #2ecc71;
+}
+
+#bg {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+
+	min-width: 100%;
+	min-height: 100%;
+}
