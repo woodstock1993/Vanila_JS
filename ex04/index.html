@@ -1,0 +1,36 @@
+CTYPE html>
+<html lang="en">
+	  <head>
+		  <meta charset="UTF-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		  <title>Code_Challenge(6)</title>
+	  </head>
+	  <body>
+		  <h1>Random Number Game</h1>
+		  <div>
+			  <h3 id="range">Generate a number between 0 and <span>200</span></h3>
+			  <datalist id="number">
+				  <option value="50"></option>
+				  <option value="100"></option>
+				  <option value="150"></option>			
+				  <option value="200"></option>
+			  </datalist>
+			  <input
+	      			list="number"
+	  			id="js-range"
+      				type="range"
+	  			min="0"
+      				max="200"	
+	  			value="100"	
+      				step="5"
+			/>
+		  </div>
+		  <form id="js-guess">
+			  <h5>Guess the number <input type="number" /><button>play!</button></h5>
+		  </form>
+		  <div id="js-result">
+			  <span></span>
+		  </div>
+		  <script src="test.js"></script>
+	  </body>
+</html>
